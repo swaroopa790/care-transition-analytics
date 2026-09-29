@@ -34,6 +34,7 @@ handoff speed, discharge velocity, backlog growth and the consistency of reunifi
 | | |
 |---|---|
 | Repository | https://github.com/swaroopa790/care-transition-analytics |
+| **Live dashboard (Streamlit Cloud)** | https://care-transition-analytics-cudp5axebefwvq7pxeiov9.streamlit.app |
 | Research paper (hosted) | https://swaroopa790.github.io/care-transition-analytics/docs/research_paper.pdf |
 | Executive summary (hosted) | https://swaroopa790.github.io/care-transition-analytics/docs/executive_summary.pdf |
 | Landing page (GitHub Pages) | https://swaroopa790.github.io/care-transition-analytics/ |
@@ -74,6 +75,8 @@ with **no build step**.
 3. Deploy. Runtime configuration lives in `.streamlit/config.toml`; the Python version is pinned in
    `.python-version`. `.streamlit/secrets.toml` is git-ignored if the app is later extended with
    secrets.
+
+**Live app:** https://care-transition-analytics-cudp5axebefwvq7pxeiov9.streamlit.app
 
 To reproduce the deployment checks locally:
 

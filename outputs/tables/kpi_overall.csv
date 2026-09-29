@@ -1,0 +1,12 @@
+window,start,end,kpi,value,definition
+Full period,2023-01-12,2025-12-21,transfer_efficiency,0.6910176523134812,Transfers out of CBP custody / children in CBP custody (daily turnover of the CBP queue; higher = faster handoff)
+Full period,2023-01-12,2025-12-21,cbp_clearance_days,1.9918702654535,Children in CBP custody / Transfers out of CBP custody (days needed to clear the CBP queue at the observed transfer rate)
+Full period,2023-01-12,2025-12-21,discharge_effectiveness,0.023737002796523007,Discharges from HHS care / children in HHS care (daily release velocity; higher = faster reunification)
+Full period,2023-01-12,2025-12-21,hhs_release_days,97.9562086989064,Children in HHS care / Discharges from HHS care (days needed to place the active HHS caseload at the observed discharge rate)
+Full period,2023-01-12,2025-12-21,pipeline_throughput,1.8541515066011256,Sum(discharges) / Sum(intake) over the window (total exits divided by total entries)
+Full period,2023-01-12,2025-12-21,handoff_completion,1.3757815168480925,Sum(transfers) / Sum(intake) over the window (share of apprehensions that reached HHS care)
+Full period,2023-01-12,2025-12-21,placement_completion,1.3477078183525653,Sum(discharges) / Sum(transfers) over the window (share of transferred children discharged to a sponsor)
+Full period,2023-01-12,2025-12-21,backlog_accumulation,-44.73888888888889,Transfers - Discharges (children/day) (positive = HHS queue growing faster than it empties)
+Full period,2023-01-12,2025-12-21,backlog_accumulation_rel,-0.005519844619337006,(Transfers - Discharges) / HHS care stock (relative growth rate of the HHS queue)
+Full period,2023-01-12,2025-12-21,cbp_net_backlog,-35.144444444444446,Intake - Transfers (children/day) (positive = CBP queue growing faster than it empties)
+Full period,2023-01-12,2025-12-21,outcome_stability,43.92729539408337,"100 * (1 - clamp(CV of discharge effectiveness, 0, 1)) (100 = perfectly consistent daily release velocity)"

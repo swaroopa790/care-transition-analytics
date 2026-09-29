@@ -1,0 +1,5 @@
+period,observed_hhs_change,predicted_hhs_change,hhs_residual,hhs_residual_per_day,observed_cbp_change,predicted_cbp_change,cbp_residual,cbp_residual_per_day
+all,-4082,-32212,28130,39.1,-35,-25304,25269,35.1
+2023,4664,-30120,34784,151.2,54,-9068,9122,39.7
+2024,-4416,863,-5279,-21.0,32,-15386,15418,61.4
+2025,-3921,-2955,-966,-4.0,-48,-850,802,3.4

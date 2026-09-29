@@ -1,0 +1,446 @@
+date,alert,metric,value,threshold
+2023-01-29,CBP clearance time above threshold,cbp_clearance_days,4.090909090909091,4.0
+2023-06-19,CBP clearance time above threshold,cbp_clearance_days,4.636363636363637,4.0
+2023-06-27,Backlog accumulation above threshold,backlog_accumulation_rel,0.01098529660300828,0.01
+2023-07-04,Backlog accumulation above threshold,backlog_accumulation_rel,0.015178717153582504,0.01
+2023-07-05,Backlog accumulation above threshold,backlog_accumulation_rel,0.010172775714516389,0.01
+2023-10-30,CBP clearance time above threshold,cbp_clearance_days,4.636363636363637,4.0
+2024-01-11,CBP clearance time above threshold,cbp_clearance_days,4.636363636363637,4.0
+2024-02-05,Backlog accumulation above threshold,backlog_accumulation_rel,0.013084349593495935,0.01
+2024-02-06,Backlog accumulation above threshold,backlog_accumulation_rel,0.018023617153511497,0.01
+2024-02-07,Backlog accumulation above threshold,backlog_accumulation_rel,0.013235294117647059,0.01
+2024-02-12,Backlog accumulation above threshold,backlog_accumulation_rel,0.0254572417202175,0.01
+2024-02-13,Backlog accumulation above threshold,backlog_accumulation_rel,0.022640153330138954,0.01
+2024-02-19,Backlog accumulation above threshold,backlog_accumulation_rel,0.018257756563245825,0.01
+2024-02-21,Backlog accumulation above threshold,backlog_accumulation_rel,0.010148139507756912,0.01
+2024-02-27,Backlog accumulation above threshold,backlog_accumulation_rel,0.011560693641618497,0.01
+2024-03-04,Backlog accumulation above threshold,backlog_accumulation_rel,0.012817551963048499,0.01
+2024-03-05,Backlog accumulation above threshold,backlog_accumulation_rel,0.014886363636363637,0.01
+2024-04-09,Backlog accumulation above threshold,backlog_accumulation_rel,0.012352690614794833,0.01
+2024-04-21,Backlog accumulation above threshold,backlog_accumulation_rel,0.015270570793180133,0.01
+2024-04-23,Backlog accumulation above threshold,backlog_accumulation_rel,0.024831347782402757,0.01
+2024-04-24,Backlog accumulation above threshold,backlog_accumulation_rel,0.021464646464646464,0.01
+2024-04-25,Backlog accumulation above threshold,backlog_accumulation_rel,0.016090997364405606,0.01
+2024-04-28,Backlog accumulation above threshold,backlog_accumulation_rel,0.015757741847081393,0.01
+2024-05-01,Backlog accumulation above threshold,backlog_accumulation_rel,0.013985082578582844,0.01
+2024-05-02,Backlog accumulation above threshold,backlog_accumulation_rel,0.013065857199419295,0.01
+2024-05-07,Backlog accumulation above threshold,backlog_accumulation_rel,0.010970129526830557,0.01
+2024-05-15,Backlog accumulation above threshold,backlog_accumulation_rel,0.010014494663328502,0.01
+2024-05-23,Backlog accumulation above threshold,backlog_accumulation_rel,0.011609287429943955,0.01
+2024-05-27,Backlog accumulation above threshold,backlog_accumulation_rel,0.011541072640868975,0.01
+2024-05-28,Backlog accumulation above threshold,backlog_accumulation_rel,0.011863035858722027,0.01
+2024-05-30,Backlog accumulation above threshold,backlog_accumulation_rel,0.019701176781700382,0.01
+2024-06-05,Backlog accumulation above threshold,backlog_accumulation_rel,0.012092055649460408,0.01
+2024-07-30,Backlog accumulation above threshold,backlog_accumulation_rel,0.019561551433389546,0.01
+2024-08-13,Backlog accumulation above threshold,backlog_accumulation_rel,0.011034943989299448,0.01
+2024-08-20,Backlog accumulation above threshold,backlog_accumulation_rel,0.022185154295246038,0.01
+2024-08-27,Backlog accumulation above threshold,backlog_accumulation_rel,0.0203185955786736,0.01
+2024-09-02,Backlog accumulation above threshold,backlog_accumulation_rel,0.011143410852713179,0.01
+2024-09-03,Backlog accumulation above threshold,backlog_accumulation_rel,0.010363520408163265,0.01
+2024-09-04,Backlog accumulation above threshold,backlog_accumulation_rel,0.01647058823529412,0.01
+2024-09-18,Backlog accumulation above threshold,backlog_accumulation_rel,0.01088871096877502,0.01
+2024-10-01,Backlog accumulation above threshold,backlog_accumulation_rel,0.013245033112582781,0.01
+2024-10-29,Backlog accumulation above threshold,backlog_accumulation_rel,0.0168686537831641,0.01
+2024-11-25,Backlog accumulation above threshold,backlog_accumulation_rel,0.011723534558180227,0.01
+2024-11-26,Backlog accumulation above threshold,backlog_accumulation_rel,0.017507723995880537,0.01
+2024-11-28,Backlog accumulation above threshold,backlog_accumulation_rel,0.015763877242998492,0.01
+2024-12-02,Backlog accumulation above threshold,backlog_accumulation_rel,0.017653852499587525,0.01
+2024-12-03,Backlog accumulation above threshold,backlog_accumulation_rel,0.02180232558139535,0.01
+2024-12-10,Backlog accumulation above threshold,backlog_accumulation_rel,0.010142630744849446,0.01
+2024-12-11,Backlog accumulation above threshold,backlog_accumulation_rel,0.012496094970321775,0.01
+2024-12-12,Backlog accumulation above threshold,backlog_accumulation_rel,0.014195340225273877,0.01
+2024-12-17,Backlog accumulation above threshold,backlog_accumulation_rel,0.014755610205963726,0.01
+2024-12-18,Backlog accumulation above threshold,backlog_accumulation_rel,0.011518642012731131,0.01
+2024-12-25,Backlog accumulation above threshold,backlog_accumulation_rel,0.012856929286888922,0.01
+2025-01-21,Backlog accumulation above threshold,backlog_accumulation_rel,0.0133248730964467,0.01
+2025-01-26,CBP clearance time above threshold,cbp_clearance_days,4.636363636363637,4.0
+2025-02-03,CBP clearance time above threshold,cbp_clearance_days,4.090909090909091,4.0
+2025-02-17,Discharge effectiveness below threshold,discharge_effectiveness,0.005924170616113744,0.01
+2025-02-17,HHS release time above threshold,hhs_release_days,168.8,150.0
+2025-02-18,Discharge effectiveness below threshold,discharge_effectiveness,0.003548895899053628,0.01
+2025-02-18,HHS release time above threshold,hhs_release_days,281.77777777777777,150.0
+2025-02-19,Discharge effectiveness below threshold,discharge_effectiveness,0.007515822784810127,0.01
+2025-02-24,Discharge effectiveness below threshold,discharge_effectiveness,0.009946125155408206,0.01
+2025-02-25,Discharge effectiveness below threshold,discharge_effectiveness,0.009531703273932863,0.01
+2025-02-26,Discharge effectiveness below threshold,discharge_effectiveness,0.00953961012028204,0.01
+2025-02-26,CBP clearance time above threshold,cbp_clearance_days,21.0,4.0
+2025-03-02,CBP clearance time above threshold,cbp_clearance_days,6.0,4.0
+2025-03-05,CBP clearance time above threshold,cbp_clearance_days,5.0,4.0
+2025-03-06,CBP clearance time above threshold,cbp_clearance_days,4.5,4.0
+2025-03-11,Discharge effectiveness below threshold,discharge_effectiveness,0.00945179584120983,0.01
+2025-03-12,Discharge effectiveness below threshold,discharge_effectiveness,0.003786086133459536,0.01
+2025-03-12,CBP clearance time above threshold,cbp_clearance_days,9.0,4.0
+2025-03-12,HHS release time above threshold,hhs_release_days,264.125,150.0
+2025-03-13,Discharge effectiveness below threshold,discharge_effectiveness,0.002835538752362949,0.01
+2025-03-13,HHS release time above threshold,hhs_release_days,352.6666666666667,150.0
+2025-03-16,Discharge effectiveness below threshold,discharge_effectiveness,0.0023618327822390174,0.01
+2025-03-16,HHS release time above threshold,hhs_release_days,423.4,150.0
+2025-03-17,Discharge effectiveness below threshold,discharge_effectiveness,0.0037896731406916154,0.01
+2025-03-17,HHS release time above threshold,hhs_release_days,263.875,150.0
+2025-03-18,Discharge effectiveness below threshold,discharge_effectiveness,0.003793266951161688,0.01
+2025-03-18,CBP clearance time above threshold,cbp_clearance_days,5.666666666666667,4.0
+2025-03-18,HHS release time above threshold,hhs_release_days,263.625,150.0
+2025-03-19,Discharge effectiveness below threshold,discharge_effectiveness,0.004247286455875413,0.01
+2025-03-19,HHS release time above threshold,hhs_release_days,235.44444444444446,150.0
+2025-03-20,Discharge effectiveness below threshold,discharge_effectiveness,0.003295668549905838,0.01
+2025-03-20,HHS release time above threshold,hhs_release_days,303.42857142857144,150.0
+2025-03-23,Discharge effectiveness below threshold,discharge_effectiveness,0.0009363295880149813,0.01
+2025-03-23,HHS release time above threshold,hhs_release_days,1068.0,150.0
+2025-03-24,Discharge effectiveness below threshold,discharge_effectiveness,0.0032725572697522207,0.01
+2025-03-24,HHS release time above threshold,hhs_release_days,305.57142857142856,150.0
+2025-03-25,Discharge effectiveness below threshold,discharge_effectiveness,0.002797202797202797,0.01
+2025-03-25,HHS release time above threshold,hhs_release_days,357.5,150.0
+2025-03-26,Discharge effectiveness below threshold,discharge_effectiveness,0.0009263547938860583,0.01
+2025-03-26,HHS release time above threshold,hhs_release_days,1079.5,150.0
+2025-03-27,Discharge effectiveness below threshold,discharge_effectiveness,0.0009263547938860583,0.01
+2025-03-27,HHS release time above threshold,hhs_release_days,1079.5,150.0
+2025-03-30,Discharge effectiveness below threshold,discharge_effectiveness,0.0009140767824497258,0.01
+2025-03-30,HHS release time above threshold,hhs_release_days,1094.0,150.0
+2025-03-31,Discharge effectiveness below threshold,discharge_effectiveness,0.002279981760145919,0.01
+2025-03-31,HHS release time above threshold,hhs_release_days,438.6,150.0
+2025-04-01,Discharge effectiveness below threshold,discharge_effectiveness,0.005476951163852123,0.01
+2025-04-01,CBP clearance time above threshold,cbp_clearance_days,5.142857142857143,4.0
+2025-04-01,HHS release time above threshold,hhs_release_days,182.58333333333334,150.0
+2025-04-02,Discharge effectiveness below threshold,discharge_effectiveness,0.001358695652173913,0.01
+2025-04-02,HHS release time above threshold,hhs_release_days,736.0,150.0
+2025-04-03,Discharge effectiveness below threshold,discharge_effectiveness,0.003598740440845704,0.01
+2025-04-03,HHS release time above threshold,hhs_release_days,277.875,150.0
+2025-04-06,Discharge effectiveness below threshold,discharge_effectiveness,0.004923903312444047,0.01
+2025-04-06,HHS release time above threshold,hhs_release_days,203.0909090909091,150.0
+2025-04-07,Discharge effectiveness below threshold,discharge_effectiveness,0.002235136343316942,0.01
+2025-04-07,HHS release time above threshold,hhs_release_days,447.4,150.0
+2025-04-08,Discharge effectiveness below threshold,discharge_effectiveness,0.004012483281319661,0.01
+2025-04-08,HHS release time above threshold,hhs_release_days,249.22222222222223,150.0
+2025-04-09,Discharge effectiveness below threshold,discharge_effectiveness,0.002221235006663705,0.01
+2025-04-09,HHS release time above threshold,hhs_release_days,450.2,150.0
+2025-04-10,Discharge effectiveness below threshold,discharge_effectiveness,0.0026490066225165563,0.01
+2025-04-10,HHS release time above threshold,hhs_release_days,377.5,150.0
+2025-04-11,Discharge effectiveness below threshold,discharge_effectiveness,0.003970004411116012,0.01
+2025-04-11,HHS release time above threshold,hhs_release_days,251.88888888888889,150.0
+2025-04-13,Discharge effectiveness below threshold,discharge_effectiveness,0.001314060446780552,0.01
+2025-04-13,HHS release time above threshold,hhs_release_days,761.0,150.0
+2025-04-14,Discharge effectiveness below threshold,discharge_effectiveness,0.0056967572304995615,0.01
+2025-04-14,HHS release time above threshold,hhs_release_days,175.53846153846155,150.0
+2025-04-15,Discharge effectiveness below threshold,discharge_effectiveness,0.0030621172353455816,0.01
+2025-04-15,HHS release time above threshold,hhs_release_days,326.57142857142856,150.0
+2025-04-16,Discharge effectiveness below threshold,discharge_effectiveness,0.003491924923614142,0.01
+2025-04-16,CBP clearance time above threshold,cbp_clearance_days,6.0,4.0
+2025-04-16,HHS release time above threshold,hhs_release_days,286.375,150.0
+2025-04-17,Discharge effectiveness below threshold,discharge_effectiveness,0.006118881118881119,0.01
+2025-04-17,HHS release time above threshold,hhs_release_days,163.42857142857142,150.0
+2025-04-20,Discharge effectiveness below threshold,discharge_effectiveness,0.0017353579175704988,0.01
+2025-04-20,HHS release time above threshold,hhs_release_days,576.25,150.0
+2025-04-21,Discharge effectiveness below threshold,discharge_effectiveness,0.0025996533795493936,0.01
+2025-04-21,CBP clearance time above threshold,cbp_clearance_days,5.0,4.0
+2025-04-21,HHS release time above threshold,hhs_release_days,384.6666666666667,150.0
+2025-04-22,Discharge effectiveness below threshold,discharge_effectiveness,0.00737527114967462,0.01
+2025-04-23,Discharge effectiveness below threshold,discharge_effectiveness,0.004782608695652174,0.01
+2025-04-23,CBP clearance time above threshold,cbp_clearance_days,5.75,4.0
+2025-04-23,HHS release time above threshold,hhs_release_days,209.0909090909091,150.0
+2025-04-24,Discharge effectiveness below threshold,discharge_effectiveness,0.005666957279860506,0.01
+2025-04-24,HHS release time above threshold,hhs_release_days,176.46153846153845,150.0
+2025-04-27,Discharge effectiveness below threshold,discharge_effectiveness,0.001738374619730552,0.01
+2025-04-27,HHS release time above threshold,hhs_release_days,575.25,150.0
+2025-04-28,Discharge effectiveness below threshold,discharge_effectiveness,0.0034677069787602947,0.01
+2025-04-28,HHS release time above threshold,hhs_release_days,288.375,150.0
+2025-04-29,Discharge effectiveness below threshold,discharge_effectiveness,0.006510416666666667,0.01
+2025-04-29,HHS release time above threshold,hhs_release_days,153.6,150.0
+2025-04-30,Discharge effectiveness below threshold,discharge_effectiveness,0.00519705500216544,0.01
+2025-04-30,HHS release time above threshold,hhs_release_days,192.41666666666666,150.0
+2025-05-01,Discharge effectiveness below threshold,discharge_effectiveness,0.006938421509106678,0.01
+2025-05-04,Discharge effectiveness below threshold,discharge_effectiveness,0.0021413276231263384,0.01
+2025-05-04,HHS release time above threshold,hhs_release_days,467.0,150.0
+2025-05-05,Discharge effectiveness below threshold,discharge_effectiveness,0.007293007293007293,0.01
+2025-05-06,Discharge effectiveness below threshold,discharge_effectiveness,0.006840530141085934,0.01
+2025-05-07,Discharge effectiveness below threshold,discharge_effectiveness,0.004282655246252677,0.01
+2025-05-07,HHS release time above threshold,hhs_release_days,233.5,150.0
+2025-05-08,Discharge effectiveness below threshold,discharge_effectiveness,0.004659042778483694,0.01
+2025-05-08,HHS release time above threshold,hhs_release_days,214.63636363636363,150.0
+2025-05-11,Discharge effectiveness below threshold,discharge_effectiveness,0.0012578616352201257,0.01
+2025-05-11,HHS release time above threshold,hhs_release_days,795.0,150.0
+2025-05-12,Discharge effectiveness below threshold,discharge_effectiveness,0.002926421404682274,0.01
+2025-05-12,HHS release time above threshold,hhs_release_days,341.7142857142857,150.0
+2025-05-13,Discharge effectiveness below threshold,discharge_effectiveness,0.004594820384294068,0.01
+2025-05-13,HHS release time above threshold,hhs_release_days,217.63636363636363,150.0
+2025-05-14,Discharge effectiveness below threshold,discharge_effectiveness,0.004594820384294068,0.01
+2025-05-14,HHS release time above threshold,hhs_release_days,217.63636363636363,150.0
+2025-05-15,Discharge effectiveness below threshold,discharge_effectiveness,0.005809128630705394,0.01
+2025-05-15,HHS release time above threshold,hhs_release_days,172.14285714285714,150.0
+2025-05-18,Discharge effectiveness below threshold,discharge_effectiveness,0.0036930652441526466,0.01
+2025-05-18,HHS release time above threshold,hhs_release_days,270.77777777777777,150.0
+2025-05-19,Discharge effectiveness below threshold,discharge_effectiveness,0.002442002442002442,0.01
+2025-05-19,HHS release time above threshold,hhs_release_days,409.5,150.0
+2025-05-21,Discharge effectiveness below threshold,discharge_effectiveness,0.007296311309282529,0.01
+2025-05-21,CBP clearance time above threshold,cbp_clearance_days,4.769230769230769,4.0
+2025-05-22,Discharge effectiveness below threshold,discharge_effectiveness,0.00606550748079256,0.01
+2025-05-22,HHS release time above threshold,hhs_release_days,164.86666666666667,150.0
+2025-05-27,Discharge effectiveness below threshold,discharge_effectiveness,0.00439297124600639,0.01
+2025-05-27,HHS release time above threshold,hhs_release_days,227.63636363636363,150.0
+2025-05-28,Discharge effectiveness below threshold,discharge_effectiveness,0.0056022408963585435,0.01
+2025-05-28,HHS release time above threshold,hhs_release_days,178.5,150.0
+2025-05-29,Discharge effectiveness below threshold,discharge_effectiveness,0.004389465283320032,0.01
+2025-05-29,HHS release time above threshold,hhs_release_days,227.8181818181818,150.0
+2025-06-01,Discharge effectiveness below threshold,discharge_effectiveness,0.004746835443037975,0.01
+2025-06-01,HHS release time above threshold,hhs_release_days,210.66666666666666,150.0
+2025-06-02,Discharge effectiveness below threshold,discharge_effectiveness,0.006354249404289118,0.01
+2025-06-02,HHS release time above threshold,hhs_release_days,157.375,150.0
+2025-06-03,Discharge effectiveness below threshold,discharge_effectiveness,0.0059547439460103215,0.01
+2025-06-03,HHS release time above threshold,hhs_release_days,167.93333333333334,150.0
+2025-06-04,Discharge effectiveness below threshold,discharge_effectiveness,0.006359300476947536,0.01
+2025-06-04,HHS release time above threshold,hhs_release_days,157.25,150.0
+2025-06-05,Discharge effectiveness below threshold,discharge_effectiveness,0.008389932081502197,0.01
+2025-06-05,CBP clearance time above threshold,cbp_clearance_days,5.2,4.0
+2025-06-08,Discharge effectiveness below threshold,discharge_effectiveness,0.005185480654168329,0.01
+2025-06-08,HHS release time above threshold,hhs_release_days,192.84615384615384,150.0
+2025-06-09,Discharge effectiveness below threshold,discharge_effectiveness,0.003577106518282989,0.01
+2025-06-09,HHS release time above threshold,hhs_release_days,279.55555555555554,150.0
+2025-06-10,Discharge effectiveness below threshold,discharge_effectiveness,0.0047789725209080045,0.01
+2025-06-10,HHS release time above threshold,hhs_release_days,209.25,150.0
+2025-06-17,Discharge effectiveness below threshold,discharge_effectiveness,0.005548949663099485,0.01
+2025-06-17,HHS release time above threshold,hhs_release_days,180.21428571428572,150.0
+2025-06-19,Discharge effectiveness below threshold,discharge_effectiveness,0.007197121151539384,0.01
+2025-06-22,Discharge effectiveness below threshold,discharge_effectiveness,0.0027910685805422647,0.01
+2025-06-22,HHS release time above threshold,hhs_release_days,358.2857142857143,150.0
+2025-06-23,Discharge effectiveness below threshold,discharge_effectiveness,0.006813627254509018,0.01
+2025-06-24,Discharge effectiveness below threshold,discharge_effectiveness,0.0064282844515869825,0.01
+2025-06-24,HHS release time above threshold,hhs_release_days,155.5625,150.0
+2025-06-25,Discharge effectiveness below threshold,discharge_effectiveness,0.009716599190283401,0.01
+2025-06-25,CBP clearance time above threshold,cbp_clearance_days,6.0,4.0
+2025-06-29,Discharge effectiveness below threshold,discharge_effectiveness,0.008288437629506838,0.01
+2025-06-30,Discharge effectiveness below threshold,discharge_effectiveness,0.006647278770253427,0.01
+2025-06-30,HHS release time above threshold,hhs_release_days,150.4375,150.0
+2025-07-01,Discharge effectiveness below threshold,discharge_effectiveness,0.009201171058134672,0.01
+2025-07-06,Discharge effectiveness below threshold,discharge_effectiveness,0.003430531732418525,0.01
+2025-07-06,CBP clearance time above threshold,cbp_clearance_days,8.5,4.0
+2025-07-06,HHS release time above threshold,hhs_release_days,291.5,150.0
+2025-07-07,Discharge effectiveness below threshold,discharge_effectiveness,0.008631851532153647,0.01
+2025-07-08,Discharge effectiveness below threshold,discharge_effectiveness,0.008673026886383347,0.01
+2025-07-13,Discharge effectiveness below threshold,discharge_effectiveness,0.004537205081669692,0.01
+2025-07-13,HHS release time above threshold,hhs_release_days,220.4,150.0
+2025-07-14,CBP clearance time above threshold,cbp_clearance_days,9.0,4.0
+2025-07-15,Discharge effectiveness below threshold,discharge_effectiveness,0.00783049286043298,0.01
+2025-07-16,Discharge effectiveness below threshold,discharge_effectiveness,0.005083179297597043,0.01
+2025-07-16,HHS release time above threshold,hhs_release_days,196.72727272727272,150.0
+2025-07-17,Discharge effectiveness below threshold,discharge_effectiveness,0.007895959126799815,0.01
+2025-07-17,CBP clearance time above threshold,cbp_clearance_days,8.0,4.0
+2025-07-21,Discharge effectiveness below threshold,discharge_effectiveness,0.007543611504007544,0.01
+2025-07-22,Discharge effectiveness below threshold,discharge_effectiveness,0.007557864903164856,0.01
+2025-07-22,CBP clearance time above threshold,cbp_clearance_days,4.333333333333333,4.0
+2025-07-23,Discharge effectiveness below threshold,discharge_effectiveness,0.006631927996210327,0.01
+2025-07-23,CBP clearance time above threshold,cbp_clearance_days,4.2,4.0
+2025-07-23,HHS release time above threshold,hhs_release_days,150.78571428571428,150.0
+2025-07-27,Discharge effectiveness below threshold,discharge_effectiveness,0.0019157088122605363,0.01
+2025-07-27,CBP clearance time above threshold,cbp_clearance_days,6.0,4.0
+2025-07-27,HHS release time above threshold,hhs_release_days,522.0,150.0
+2025-07-28,Discharge effectiveness below threshold,discharge_effectiveness,0.006730769230769231,0.01
+2025-07-29,Discharge effectiveness below threshold,discharge_effectiveness,0.005791505791505791,0.01
+2025-07-29,HHS release time above threshold,hhs_release_days,172.66666666666666,150.0
+2025-07-30,Discharge effectiveness below threshold,discharge_effectiveness,0.007755695588948134,0.01
+2025-07-31,Discharge effectiveness below threshold,discharge_effectiveness,0.007288629737609329,0.01
+2025-08-03,Discharge effectiveness below threshold,discharge_effectiveness,0.002440214738897023,0.01
+2025-08-03,CBP clearance time above threshold,cbp_clearance_days,8.666666666666666,4.0
+2025-08-03,HHS release time above threshold,hhs_release_days,409.8,150.0
+2025-08-04,Discharge effectiveness below threshold,discharge_effectiveness,0.006862745098039216,0.01
+2025-08-05,Discharge effectiveness below threshold,discharge_effectiveness,0.0068560235063663075,0.01
+2025-08-06,Discharge effectiveness below threshold,discharge_effectiveness,0.0063850687622789785,0.01
+2025-08-06,CBP clearance time above threshold,cbp_clearance_days,5.666666666666667,4.0
+2025-08-06,HHS release time above threshold,hhs_release_days,156.6153846153846,150.0
+2025-08-07,Discharge effectiveness below threshold,discharge_effectiveness,0.008370260955194485,0.01
+2025-08-10,Discharge effectiveness below threshold,discharge_effectiveness,0.005982053838484547,0.01
+2025-08-10,HHS release time above threshold,hhs_release_days,167.16666666666666,150.0
+2025-08-11,Discharge effectiveness below threshold,discharge_effectiveness,0.0080040020010005,0.01
+2025-08-11,CBP clearance time above threshold,cbp_clearance_days,5.75,4.0
+2025-08-12,Discharge effectiveness below threshold,discharge_effectiveness,0.004502251125562781,0.01
+2025-08-12,CBP clearance time above threshold,cbp_clearance_days,4.222222222222222,4.0
+2025-08-12,HHS release time above threshold,hhs_release_days,222.11111111111111,150.0
+2025-08-13,Discharge effectiveness below threshold,discharge_effectiveness,0.008512769153730596,0.01
+2025-08-14,Discharge effectiveness below threshold,discharge_effectiveness,0.005516549648946841,0.01
+2025-08-14,CBP clearance time above threshold,cbp_clearance_days,6.75,4.0
+2025-08-14,HHS release time above threshold,hhs_release_days,181.27272727272728,150.0
+2025-08-17,Discharge effectiveness below threshold,discharge_effectiveness,0.0015067805123053742,0.01
+2025-08-17,CBP clearance time above threshold,cbp_clearance_days,7.0,4.0
+2025-08-17,HHS release time above threshold,hhs_release_days,663.6666666666666,150.0
+2025-08-18,Discharge effectiveness below threshold,discharge_effectiveness,0.007052896725440806,0.01
+2025-08-19,Discharge effectiveness below threshold,discharge_effectiveness,0.005555555555555556,0.01
+2025-08-19,CBP clearance time above threshold,cbp_clearance_days,11.666666666666666,4.0
+2025-08-19,HHS release time above threshold,hhs_release_days,180.0,150.0
+2025-08-20,Discharge effectiveness below threshold,discharge_effectiveness,0.005042864346949067,0.01
+2025-08-20,HHS release time above threshold,hhs_release_days,198.3,150.0
+2025-08-21,CBP clearance time above threshold,cbp_clearance_days,6.125,4.0
+2025-08-24,Discharge effectiveness below threshold,discharge_effectiveness,0.002523977788995457,0.01
+2025-08-24,CBP clearance time above threshold,cbp_clearance_days,4.2,4.0
+2025-08-24,HHS release time above threshold,hhs_release_days,396.2,150.0
+2025-08-25,Discharge effectiveness below threshold,discharge_effectiveness,0.005555555555555556,0.01
+2025-08-25,HHS release time above threshold,hhs_release_days,180.0,150.0
+2025-08-26,Discharge effectiveness below threshold,discharge_effectiveness,0.007541478129713424,0.01
+2025-08-27,Discharge effectiveness below threshold,discharge_effectiveness,0.009557344064386318,0.01
+2025-08-28,Discharge effectiveness below threshold,discharge_effectiveness,0.008568548387096774,0.01
+2025-08-28,CBP clearance time above threshold,cbp_clearance_days,5.5,4.0
+2025-09-01,Discharge effectiveness below threshold,discharge_effectiveness,0.0024875621890547263,0.01
+2025-09-01,HHS release time above threshold,hhs_release_days,402.0,150.0
+2025-09-02,Discharge effectiveness below threshold,discharge_effectiveness,0.004455445544554455,0.01
+2025-09-02,HHS release time above threshold,hhs_release_days,224.44444444444446,150.0
+2025-09-03,Discharge effectiveness below threshold,discharge_effectiveness,0.004952947003467063,0.01
+2025-09-03,HHS release time above threshold,hhs_release_days,201.9,150.0
+2025-09-04,Discharge effectiveness below threshold,discharge_effectiveness,0.006947890818858561,0.01
+2025-09-04,CBP clearance time above threshold,cbp_clearance_days,20.0,4.0
+2025-09-07,Discharge effectiveness below threshold,discharge_effectiveness,0.0034550839091806516,0.01
+2025-09-07,HHS release time above threshold,hhs_release_days,289.42857142857144,150.0
+2025-09-08,Discharge effectiveness below threshold,discharge_effectiveness,0.002962962962962963,0.01
+2025-09-08,CBP clearance time above threshold,cbp_clearance_days,5.0,4.0
+2025-09-08,HHS release time above threshold,hhs_release_days,337.5,150.0
+2025-09-09,Discharge effectiveness below threshold,discharge_effectiveness,0.006920415224913495,0.01
+2025-09-10,Discharge effectiveness below threshold,discharge_effectiveness,0.008888888888888889,0.01
+2025-09-11,Discharge effectiveness below threshold,discharge_effectiveness,0.0029311187103077674,0.01
+2025-09-11,HHS release time above threshold,hhs_release_days,341.1666666666667,150.0
+2025-09-11,Backlog accumulation above threshold,backlog_accumulation_rel,0.011235955056179775,0.01
+2025-09-14,Discharge effectiveness below threshold,discharge_effectiveness,0.002400384061449832,0.01
+2025-09-14,HHS release time above threshold,hhs_release_days,416.6,150.0
+2025-09-15,Discharge effectiveness below threshold,discharge_effectiveness,0.004793863854266539,0.01
+2025-09-15,CBP clearance time above threshold,cbp_clearance_days,4.7,4.0
+2025-09-15,HHS release time above threshold,hhs_release_days,208.6,150.0
+2025-09-16,Discharge effectiveness below threshold,discharge_effectiveness,0.005727923627684964,0.01
+2025-09-16,HHS release time above threshold,hhs_release_days,174.58333333333334,150.0
+2025-09-17,Discharge effectiveness below threshold,discharge_effectiveness,0.006202290076335878,0.01
+2025-09-17,CBP clearance time above threshold,cbp_clearance_days,7.6,4.0
+2025-09-17,HHS release time above threshold,hhs_release_days,161.23076923076923,150.0
+2025-09-18,Discharge effectiveness below threshold,discharge_effectiveness,0.006679389312977099,0.01
+2025-09-18,CBP clearance time above threshold,cbp_clearance_days,4.7272727272727275,4.0
+2025-09-21,Discharge effectiveness below threshold,discharge_effectiveness,0.0023430178069353325,0.01
+2025-09-21,HHS release time above threshold,hhs_release_days,426.8,150.0
+2025-09-22,Discharge effectiveness below threshold,discharge_effectiveness,0.004670714619336758,0.01
+2025-09-22,HHS release time above threshold,hhs_release_days,214.1,150.0
+2025-09-23,Discharge effectiveness below threshold,discharge_effectiveness,0.006993006993006993,0.01
+2025-09-24,Discharge effectiveness below threshold,discharge_effectiveness,0.007951356407857811,0.01
+2025-09-25,Discharge effectiveness below threshold,discharge_effectiveness,0.008442776735459663,0.01
+2025-09-28,Discharge effectiveness below threshold,discharge_effectiveness,0.004193849021435228,0.01
+2025-09-28,HHS release time above threshold,hhs_release_days,238.44444444444446,150.0
+2025-09-29,Discharge effectiveness below threshold,discharge_effectiveness,0.006052141527001862,0.01
+2025-09-29,HHS release time above threshold,hhs_release_days,165.23076923076923,150.0
+2025-09-30,Discharge effectiveness below threshold,discharge_effectiveness,0.003242241778601204,0.01
+2025-09-30,HHS release time above threshold,hhs_release_days,308.42857142857144,150.0
+2025-10-01,Discharge effectiveness below threshold,discharge_effectiveness,0.006472491909385114,0.01
+2025-10-01,HHS release time above threshold,hhs_release_days,154.5,150.0
+2025-10-02,Discharge effectiveness below threshold,discharge_effectiveness,0.0073937153419593345,0.01
+2025-10-05,Discharge effectiveness below threshold,discharge_effectiveness,0.007339449541284404,0.01
+2025-10-06,Discharge effectiveness below threshold,discharge_effectiveness,0.004572473708276178,0.01
+2025-10-06,HHS release time above threshold,hhs_release_days,218.7,150.0
+2025-10-07,Discharge effectiveness below threshold,discharge_effectiveness,0.0045682960255824575,0.01
+2025-10-07,CBP clearance time above threshold,cbp_clearance_days,11.25,4.0
+2025-10-07,HHS release time above threshold,hhs_release_days,218.9,150.0
+2025-10-08,Discharge effectiveness below threshold,discharge_effectiveness,0.007755474452554745,0.01
+2025-10-09,Discharge effectiveness below threshold,discharge_effectiveness,0.005474452554744526,0.01
+2025-10-09,CBP clearance time above threshold,cbp_clearance_days,4.230769230769231,4.0
+2025-10-09,HHS release time above threshold,hhs_release_days,182.66666666666666,150.0
+2025-10-13,Discharge effectiveness below threshold,discharge_effectiveness,0.002699055330634278,0.01
+2025-10-13,HHS release time above threshold,hhs_release_days,370.5,150.0
+2025-10-14,Discharge effectiveness below threshold,discharge_effectiveness,0.0035794183445190158,0.01
+2025-10-14,HHS release time above threshold,hhs_release_days,279.375,150.0
+2025-10-15,Discharge effectiveness below threshold,discharge_effectiveness,0.006741573033707865,0.01
+2025-10-16,Discharge effectiveness below threshold,discharge_effectiveness,0.004030452306314375,0.01
+2025-10-16,HHS release time above threshold,hhs_release_days,248.11111111111111,150.0
+2025-10-19,Discharge effectiveness below threshold,discharge_effectiveness,0.0031291908806437194,0.01
+2025-10-19,HHS release time above threshold,hhs_release_days,319.57142857142856,150.0
+2025-10-20,Discharge effectiveness below threshold,discharge_effectiveness,0.003120820329915292,0.01
+2025-10-20,CBP clearance time above threshold,cbp_clearance_days,6.5,4.0
+2025-10-20,HHS release time above threshold,hhs_release_days,320.42857142857144,150.0
+2025-10-21,Discharge effectiveness below threshold,discharge_effectiveness,0.003998223011994669,0.01
+2025-10-21,HHS release time above threshold,hhs_release_days,250.11111111111111,150.0
+2025-10-22,Discharge effectiveness below threshold,discharge_effectiveness,0.005307386112339673,0.01
+2025-10-22,HHS release time above threshold,hhs_release_days,188.41666666666666,150.0
+2025-10-23,Discharge effectiveness below threshold,discharge_effectiveness,0.00794351279788173,0.01
+2025-10-26,Discharge effectiveness below threshold,discharge_effectiveness,0.004393673110720563,0.01
+2025-10-26,HHS release time above threshold,hhs_release_days,227.6,150.0
+2025-10-27,Discharge effectiveness below threshold,discharge_effectiveness,0.004820333041191937,0.01
+2025-10-27,HHS release time above threshold,hhs_release_days,207.45454545454547,150.0
+2025-10-28,Discharge effectiveness below threshold,discharge_effectiveness,0.0026246719160104987,0.01
+2025-10-28,HHS release time above threshold,hhs_release_days,381.0,150.0
+2025-10-29,Discharge effectiveness below threshold,discharge_effectiveness,0.007456140350877193,0.01
+2025-10-29,CBP clearance time above threshold,cbp_clearance_days,6.25,4.0
+2025-10-30,Discharge effectiveness below threshold,discharge_effectiveness,0.005247048535198951,0.01
+2025-10-30,HHS release time above threshold,hhs_release_days,190.58333333333334,150.0
+2025-11-02,Discharge effectiveness below threshold,discharge_effectiveness,0.0030742204655248135,0.01
+2025-11-02,HHS release time above threshold,hhs_release_days,325.2857142857143,150.0
+2025-11-03,Discharge effectiveness below threshold,discharge_effectiveness,0.005288673424416042,0.01
+2025-11-03,CBP clearance time above threshold,cbp_clearance_days,5.6,4.0
+2025-11-03,HHS release time above threshold,hhs_release_days,189.08333333333334,150.0
+2025-11-04,Discharge effectiveness below threshold,discharge_effectiveness,0.003524229074889868,0.01
+2025-11-04,CBP clearance time above threshold,cbp_clearance_days,5.5,4.0
+2025-11-04,HHS release time above threshold,hhs_release_days,283.75,150.0
+2025-11-05,Discharge effectiveness below threshold,discharge_effectiveness,0.0030809859154929575,0.01
+2025-11-05,CBP clearance time above threshold,cbp_clearance_days,5.125,4.0
+2025-11-05,HHS release time above threshold,hhs_release_days,324.57142857142856,150.0
+2025-11-06,Discharge effectiveness below threshold,discharge_effectiveness,0.008392226148409895,0.01
+2025-11-09,Discharge effectiveness below threshold,discharge_effectiveness,0.0017436791630340018,0.01
+2025-11-09,CBP clearance time above threshold,cbp_clearance_days,6.6,4.0
+2025-11-09,HHS release time above threshold,hhs_release_days,573.5,150.0
+2025-11-11,Discharge effectiveness below threshold,discharge_effectiveness,0.006102877070619006,0.01
+2025-11-11,HHS release time above threshold,hhs_release_days,163.85714285714286,150.0
+2025-11-12,Discharge effectiveness below threshold,discharge_effectiveness,0.0030408340573414424,0.01
+2025-11-12,HHS release time above threshold,hhs_release_days,328.85714285714283,150.0
+2025-11-13,Discharge effectiveness below threshold,discharge_effectiveness,0.0021579628830384117,0.01
+2025-11-13,HHS release time above threshold,hhs_release_days,463.4,150.0
+2025-11-16,Discharge effectiveness below threshold,discharge_effectiveness,0.002136752136752137,0.01
+2025-11-16,CBP clearance time above threshold,cbp_clearance_days,7.333333333333333,4.0
+2025-11-16,HHS release time above threshold,hhs_release_days,468.0,150.0
+2025-11-17,Discharge effectiveness below threshold,discharge_effectiveness,0.0034144259496372174,0.01
+2025-11-17,CBP clearance time above threshold,cbp_clearance_days,5.833333333333333,4.0
+2025-11-17,HHS release time above threshold,hhs_release_days,292.875,150.0
+2025-11-18,Discharge effectiveness below threshold,discharge_effectiveness,0.00511727078891258,0.01
+2025-11-18,CBP clearance time above threshold,cbp_clearance_days,4.75,4.0
+2025-11-18,HHS release time above threshold,hhs_release_days,195.41666666666666,150.0
+2025-11-19,Discharge effectiveness below threshold,discharge_effectiveness,0.004273504273504274,0.01
+2025-11-19,CBP clearance time above threshold,cbp_clearance_days,10.666666666666666,4.0
+2025-11-19,HHS release time above threshold,hhs_release_days,234.0,150.0
+2025-11-20,Discharge effectiveness below threshold,discharge_effectiveness,0.0038461538461538464,0.01
+2025-11-20,CBP clearance time above threshold,cbp_clearance_days,7.125,4.0
+2025-11-20,HHS release time above threshold,hhs_release_days,260.0,150.0
+2025-11-23,Discharge effectiveness below threshold,discharge_effectiveness,0.0004210526315789474,0.01
+2025-11-23,HHS release time above threshold,hhs_release_days,2375.0,150.0
+2025-11-24,Discharge effectiveness below threshold,discharge_effectiveness,0.005482918599746942,0.01
+2025-11-24,CBP clearance time above threshold,cbp_clearance_days,4.444444444444445,4.0
+2025-11-24,HHS release time above threshold,hhs_release_days,182.3846153846154,150.0
+2025-11-25,Discharge effectiveness below threshold,discharge_effectiveness,0.0046315789473684215,0.01
+2025-11-25,HHS release time above threshold,hhs_release_days,215.9090909090909,150.0
+2025-11-27,Discharge effectiveness below threshold,discharge_effectiveness,0.0029300962745918793,0.01
+2025-11-27,HHS release time above threshold,hhs_release_days,341.2857142857143,150.0
+2025-11-30,Discharge effectiveness below threshold,discharge_effectiveness,0.0,0.01
+2025-12-01,Discharge effectiveness below threshold,discharge_effectiveness,0.0037344398340248964,0.01
+2025-12-01,CBP clearance time above threshold,cbp_clearance_days,6.5,4.0
+2025-12-01,HHS release time above threshold,hhs_release_days,267.77777777777777,150.0
+2025-12-02,Discharge effectiveness below threshold,discharge_effectiveness,0.0033236393851267137,0.01
+2025-12-02,CBP clearance time above threshold,cbp_clearance_days,5.666666666666667,4.0
+2025-12-02,HHS release time above threshold,hhs_release_days,300.875,150.0
+2025-12-03,Discharge effectiveness below threshold,discharge_effectiveness,0.0028937577511368336,0.01
+2025-12-03,HHS release time above threshold,hhs_release_days,345.57142857142856,150.0
+2025-12-04,Discharge effectiveness below threshold,discharge_effectiveness,0.005376344086021506,0.01
+2025-12-04,CBP clearance time above threshold,cbp_clearance_days,5.571428571428571,4.0
+2025-12-04,HHS release time above threshold,hhs_release_days,186.0,150.0
+2025-12-07,Discharge effectiveness below threshold,discharge_effectiveness,0.004940304652120214,0.01
+2025-12-07,HHS release time above threshold,hhs_release_days,202.41666666666666,150.0
+2025-12-08,Discharge effectiveness below threshold,discharge_effectiveness,0.001639344262295082,0.01
+2025-12-08,HHS release time above threshold,hhs_release_days,610.0,150.0
+2025-12-09,Discharge effectiveness below threshold,discharge_effectiveness,0.003274662300450266,0.01
+2025-12-09,CBP clearance time above threshold,cbp_clearance_days,4.285714285714286,4.0
+2025-12-09,HHS release time above threshold,hhs_release_days,305.375,150.0
+2025-12-10,Discharge effectiveness below threshold,discharge_effectiveness,0.0036900369003690036,0.01
+2025-12-10,CBP clearance time above threshold,cbp_clearance_days,10.8,4.0
+2025-12-10,HHS release time above threshold,hhs_release_days,271.0,150.0
+2025-12-11,Discharge effectiveness below threshold,discharge_effectiveness,0.004103405826836274,0.01
+2025-12-11,CBP clearance time above threshold,cbp_clearance_days,5.222222222222222,4.0
+2025-12-11,HHS release time above threshold,hhs_release_days,243.7,150.0
+2025-12-14,Discharge effectiveness below threshold,discharge_effectiveness,0.003249390739236393,0.01
+2025-12-14,CBP clearance time above threshold,cbp_clearance_days,8.75,4.0
+2025-12-14,HHS release time above threshold,hhs_release_days,307.75,150.0
+2025-12-15,Discharge effectiveness below threshold,discharge_effectiveness,0.002834008097165992,0.01
+2025-12-15,CBP clearance time above threshold,cbp_clearance_days,4.666666666666667,4.0
+2025-12-15,HHS release time above threshold,hhs_release_days,352.85714285714283,150.0
+2025-12-16,Discharge effectiveness below threshold,discharge_effectiveness,0.003646677471636953,0.01
+2025-12-16,HHS release time above threshold,hhs_release_days,274.22222222222223,150.0
+2025-12-17,Discharge effectiveness below threshold,discharge_effectiveness,0.004030632809351068,0.01
+2025-12-17,HHS release time above threshold,hhs_release_days,248.1,150.0
+2025-12-18,Discharge effectiveness below threshold,discharge_effectiveness,0.006472491909385114,0.01
+2025-12-18,CBP clearance time above threshold,cbp_clearance_days,8.333333333333334,4.0
+2025-12-18,HHS release time above threshold,hhs_release_days,154.5,150.0
+2025-12-21,Discharge effectiveness below threshold,discharge_effectiveness,0.005636070853462158,0.01
+2025-12-21,HHS release time above threshold,hhs_release_days,177.42857142857142,150.0

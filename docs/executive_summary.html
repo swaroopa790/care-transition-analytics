@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Executive Summary — Care Transition Efficiency & Placement Outcome Analytics</title>
+<style>
+@page { size: A4; margin: 16mm 15mm 16mm 15mm; }
+* { box-sizing: border-box; }
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 10.5pt; line-height: 1.55; color: #1B1B1B; margin: 0;
+}
+h1 { font-size: 21pt; line-height: 1.25; color: #14304A; margin: 0 0 6pt 0; }
+h2 { font-size: 14pt; color: #14304A; margin: 22pt 0 8pt 0;
+     border-bottom: 1.5px solid #14304A; padding-bottom: 3pt; }
+h3 { font-size: 11.5pt; color: #1F4E79; margin: 15pt 0 5pt 0; }
+h4 { font-size: 10.5pt; color: #1F4E79; margin: 12pt 0 4pt 0; }
+p { margin: 6pt 0; text-align: justify; }
+ul, ol { margin: 6pt 0 6pt 18pt; padding-left: 6pt; }
+li { margin: 3pt 0; }
+strong { color: #0E2A42; }
+em { color: #333; }
+hr { border: none; border-top: 1px solid #D8D8D8; margin: 16pt 0; }
+a { color: #1F4E79; text-decoration: none; }
+blockquote {
+  margin: 10pt 0; padding: 7pt 12pt; background: #F3F7FB;
+  border-left: 4px solid #4C78A8; font-size: 10.5pt; color: #183B56;
+}
+code {
+  font-family: "Consolas", "Courier New", monospace; font-size: 9pt;
+  background: #F4F4F4; padding: 1px 4px; border-radius: 3px;
+}
+pre {
+  background: #F7F9FB; border: 1px solid #DDE5EC; padding: 9pt 10pt;
+  font-size: 8.6pt; line-height: 1.45; white-space: pre-wrap;
+  page-break-inside: avoid;
+}
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; width: 100%; margin: 10pt 0;
+        font-size: 8.9pt; page-break-inside: avoid; }
+th { background: #14304A; color: #FFFFFF; text-align: left;
+     padding: 5pt 7pt; font-weight: bold; border: 1px solid #14304A; }
+td { padding: 4.5pt 7pt; border: 1px solid #D5DDE5; vertical-align: top; }
+tbody tr:nth-child(even) { background: #F6F9FC; }
+img { max-width: 100%; max-height: 232mm; width: auto; height: auto;
+      display: block; margin: 10pt auto; page-break-inside: avoid; }
+figure { margin: 10pt 0; page-break-inside: avoid; }
+figcaption { font-size: 8.8pt; color: #555; text-align: justify;
+             margin-top: 4pt; font-style: italic; }
+h1, h2, h3 { page-break-after: avoid; }
+strong + table, h2 + table { page-break-before: avoid; }
+</style>
+</head>
+<body>
+<h1 id="executive-summary-care-transition-efficiency-placement-outcome-analytics">Executive Summary — Care Transition Efficiency &amp; Placement Outcome Analytics</h1>
+<p><strong>Audience:</strong> HHS / programme leadership and government stakeholders
+<strong>Dataset:</strong> HHS Unaccompanied Alien Children (UAC) daily reporting file · 12 Jan 2023 – 21 Dec 2025 · 720 reports over 1,075 calendar days
+<strong>Deliverables:</strong> this summary · full research paper (PDF) · live Streamlit dashboard</p>
+<hr>
+<h2 id="bottom-line">Bottom line</h2>
+<p>The programme is usually described by <strong>how many</strong> children are in care. This analysis measures <strong>how well children move through care</strong>: border handoff speed, discharge velocity, backlog growth and the consistency of reunification outcomes.</p>
+<p>On that basis the pipeline is structurally sound at stage 1 and weak at stage 2, and <strong>the most recent year is the weakest on record for process — not because it is busier, but because it is slower</strong>:</p>
+<blockquote>
+<p>Between 2023 and 2025 the transfer of children from CBP to HHS slowed from <strong>83% to 46%</strong> of the border queue per day (1.3 → 3.3 days to clear), and the daily discharge of children to sponsors fell from <strong>3.34% to 0.90%</strong> of the HHS caseload — stretching the implied reunification cycle from <strong>31 days to a median of 177 days</strong>. Meanwhile the Outcome Stability Score, which measures how consistent daily release performance is, fell from <strong>77.7 to 0.0</strong>.</p>
+</blockquote>
+<p>Capacity counts alone would have reported "caseload down, numbers good." Process metrics show reunification speed deteriorating roughly six-fold over the same period.</p>
+<hr>
+<h2 id="what-was-measured">What was measured</h2>
+<p>The programme is modelled as a three-stage pipeline with two queues:</p>
+<p><strong>Apprehension → [CBP custody] → transfer → [HHS care] → discharge → sponsor placement</strong></p>
+<p>Five headline KPIs, all scale-invariant so years with very different volumes are comparable:</p>
+<table>
+<thead>
+<tr>
+<th>KPI</th>
+<th>Definition</th>
+<th style="text-align: right;">Full period</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Transfer Efficiency Ratio</td>
+<td>Transfers ÷ children in CBP custody</td>
+<td style="text-align: right;"><strong>69.1%</strong>/day (≈2.0 days to clear)</td>
+</tr>
+<tr>
+<td>Discharge Effectiveness Index</td>
+<td>Discharges ÷ children in HHS care</td>
+<td style="text-align: right;"><strong>2.37%</strong>/day (≈98 days to place)</td>
+</tr>
+<tr>
+<td>Pipeline Throughput</td>
+<td>Total exits ÷ total entries</td>
+<td style="text-align: right;"><strong>1.85×</strong></td>
+</tr>
+<tr>
+<td>Backlog Accumulation Rate</td>
+<td>Transfers − discharges, per report</td>
+<td style="text-align: right;"><strong>−45/day</strong> (net drain)</td>
+</tr>
+<tr>
+<td>Outcome Stability Score</td>
+<td>100 × (1 − variation in discharge effectiveness)</td>
+<td style="text-align: right;"><strong>43.9 / 100</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Window totals: <strong>67,337 apprehensions → 92,641 transfers → 124,853 sponsor placements</strong>.</p>
+<hr>
+<h2 id="five-findings">Five findings</h2>
+<p><strong>1. The border handoff is fast; the placement stage is 50× slower.</strong>
+Children leave CBP custody in about <strong>2 days</strong>; the HHS caseload takes about <strong>98 days</strong> to place at observed rates. Reform effort belongs at stage 2.</p>
+<p><strong>2. 2024 was the backlog year.</strong>
+It is the only year in which discharges failed to keep pace with transfers (placement completion <strong>98%</strong>, net <strong>+3.4 children/day</strong>). The detector found <strong>36 sustained accumulation runs</strong> covering 170 reports and a cumulative 7,787 children — <strong>27 of those 36 runs, and 7,595 of those children, fall in 2024</strong>. The single worst episode: <strong>+1,028 children accumulated between 21 April and 2 May 2024 (12 days)</strong> — an event invisible in monthly averages.</p>
+<p><strong>3. 2025 lost speed, not just volume.</strong>
+Intake fell from 148 to 13 children/day and the caseload fell ~64% — but transfer efficiency halved, discharge effectiveness fell ~4×, the implied placement cycle stretched to <strong>227 days (mean)</strong>, and <strong>every one of the 190 sub-threshold release reports and 141 slow-release alerts in the entire three-year record occurred in 2025</strong>. The worst single month-over-month move was <strong>−73.4% (March 2025)</strong>.</p>
+<p><strong>4. Two prolonged low-reunification windows and nine sudden drops were located precisely.</strong>
+Longest stagnation: <strong>11–31 March 2025</strong> — 15 consecutive reports at 0.30%/day against a 1.19% baseline (a 74% shortfall sustained 21 days). Second: <strong>17–26 February 2025</strong>. Nine sudden drops (≥2σ below the trailing mean) cluster in Jan–Feb and Nov 2025.</p>
+<p><strong>5. Releases appear to be batched at weekends — and the data cannot confirm it.</strong>
+Sunday reports carry <strong>+61 more discharges</strong> than weekday reports at equal caseload, gap and trend (t = 9.7). But the file has <strong>no Saturday reports and only two Friday reports</strong>, so weekend activity and a wider weekend counting window cannot be told apart. <strong>33% of calendar days (355 of 1,075) carry no report at all.</strong></p>
+<hr>
+<h2 id="recommended-actions">Recommended actions</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Action</th>
+<th>Trigger / target</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Publish a <strong>discharge-velocity floor</strong></td>
+<td>Discharge Effectiveness ≥ <strong>2.5%/day</strong> (≈40-day cycle) with automatic alert below 1%</td>
+<td>2025 median cycle is 177 days; all 190 breaches are in 2025</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Set a <strong>CBP handoff service level</strong></td>
+<td>Transfer Efficiency ≥ 60% / clearance ≤ 2 days</td>
+<td>Actual 2025: 46% and 3.3 days</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Three-report accumulation trigger</strong></td>
+<td>Intervene on the 3rd consecutive report of queue growth</td>
+<td>Every one of the 36 runs began as a 3-day streak; worst added 1,028 children in 12 days</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Move to seven-day reporting</strong> and publish a <strong>data dictionary</strong></td>
+<td>Coverage 67% → ≥95%; close the 2023 reconciliation gap</td>
+<td>355 unobserved days; 2023 flow columns leave <strong>≈151 children/day unexplained</strong> vs the stock change</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Review any month scoring &lt; 50 on stability</strong></td>
+<td>March 2025 scored 14.4</td>
+<td>Erratic release cadence disrupts shelter staffing, transport and school enrolment downstream</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="data-caveats-a-decision-maker-should-know">Data caveats a decision-maker should know</h2>
+<ul>
+<li><strong>Stock and flow columns do not reconcile in 2023.</strong> Reported transfers minus discharges predict a 30,120-child drawdown while the queue actually grew by 4,664 — an unexplained <strong>+34,784 children (≈151/day)</strong>. The identity closes to ±4/day by 2025. Within-period ratios are unaffected, but absolute 2023 volumes should not be audited against each other until a data dictionary exists.</li>
+<li><strong>Reporting is Monday–Thursday plus Sundays</strong> — no Saturdays, two Fridays, a longest blind spot of 10 days.</li>
+<li><strong>No child-level data.</strong> True length-of-stay, sponsor type and post-discharge outcomes are out of scope; "release time" is a flow/stock proxy.</li>
+<li><strong>The analysis is descriptive, not causal.</strong> The 2025 break is documented, not attributed to any specific policy.</li>
+</ul>
+<hr>
+<h2 id="what-the-dashboard-delivers">What the dashboard delivers</h2>
+<p><code>streamlit run app.py</code> opens five modules: <strong>Care Pipeline Flow</strong> (stocks, flows and a flow-conserving pipeline map), <strong>Transfer &amp; Discharge Efficiency</strong> (with a <em>counts / ratios / days-to-clear</em> toggle), <strong>Bottleneck Detection</strong> (sustained runs, alert histogram), <strong>Outcome Trend Analysis</strong> (month-over-month placements, stability, weekday/weekend) and <strong>Data &amp; Method</strong> (coverage, mass balance, definitions, CSV downloads).</p>
+<p>Controls: <strong>date-range selection</strong>, <strong>ratio-based metric toggles</strong>, <strong>rolling-window smoothing</strong> and four <strong>threshold-based visual alerts</strong> — every chart marks the reports that breach the thresholds you set.</p>
+<hr>
+<p><em>All figures are regenerated from the source CSV by <code>python src/run_analysis.py</code>; supporting tables are in <code>outputs/tables/</code> and machine-readable findings in <code>outputs/insights.json</code>.</em></p>
+</body>
+</html>

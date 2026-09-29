@@ -1,0 +1,21 @@
+# Streamlit configuration - shared by local runs and Streamlit Community Cloud.
+# Secrets are never committed: .streamlit/secrets.toml is git-ignored.
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "light"
+primaryColor = "#4C78A8"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F5F8"
+textColor = "#1B2733"
+font = "sans serif"

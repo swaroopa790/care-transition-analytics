@@ -1,0 +1,31 @@
+{
+  "first_report": "2023-01-12",
+  "last_report": "2025-12-21",
+  "reporting_days": 720,
+  "calendar_days": 1075,
+  "coverage_pct": 67.0,
+  "mean_gap_days": 1.49,
+  "median_gap_days": 1.0,
+  "max_gap_days": 10,
+  "gap_distribution": {
+    "1": 559,
+    "2": 10,
+    "3": 122,
+    "4": 23,
+    "5": 3,
+    "6": 1,
+    "7": 1,
+    "10": 1
+  },
+  "weekday_counts": {
+    "Tuesday": 149,
+    "Thursday": 147,
+    "Wednesday": 147,
+    "Monday": 145,
+    "Sunday": 130,
+    "Friday": 2
+  },
+  "missing_weekdays": [
+    "Saturday"
+  ]
+}

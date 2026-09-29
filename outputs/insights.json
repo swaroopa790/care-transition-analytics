@@ -1,0 +1,499 @@
+{
+  "generated_for": "Care Transition Efficiency & Placement Outcome Analytics",
+  "period": {
+    "start": "2023-01-12",
+    "end": "2025-12-21",
+    "reporting_days": 720,
+    "calendar_days": 1075,
+    "coverage_pct": 67.0
+  },
+  "coverage": {
+    "first_report": "2023-01-12",
+    "last_report": "2025-12-21",
+    "reporting_days": 720,
+    "calendar_days": 1075,
+    "coverage_pct": 67.0,
+    "mean_gap_days": 1.49,
+    "median_gap_days": 1.0,
+    "max_gap_days": 10,
+    "gap_distribution": {
+      "1": 559,
+      "2": 10,
+      "3": 122,
+      "4": 23,
+      "5": 3,
+      "6": 1,
+      "7": 1,
+      "10": 1
+    },
+    "weekday_counts": {
+      "Tuesday": 149,
+      "Thursday": 147,
+      "Wednesday": 147,
+      "Monday": 145,
+      "Sunday": 130,
+      "Friday": 2
+    },
+    "missing_weekdays": [
+      "Saturday"
+    ]
+  },
+  "overall_kpis": {
+    "transfer_efficiency": 0.691,
+    "cbp_clearance_days": 1.9919,
+    "discharge_effectiveness": 0.0237,
+    "hhs_release_days": 97.9562,
+    "pipeline_throughput": 1.8542,
+    "handoff_completion": 1.3758,
+    "placement_completion": 1.3477,
+    "backlog_accumulation": -44.7389,
+    "backlog_accumulation_rel": -0.0055,
+    "cbp_net_backlog": -35.1444,
+    "outcome_stability": 43.9273
+  },
+  "overall_totals": {
+    "intake": 67337,
+    "transfers": 92641,
+    "discharges": 124853
+  },
+  "kpi_by_year": [
+    {
+      "period": "2023",
+      "reporting_days": 230,
+      "coverage_pct": 65.5,
+      "transfer_efficiency": 0.83,
+      "cbp_clearance_days": 1.3179,
+      "discharge_effectiveness": 0.0334,
+      "hhs_release_days": 31.4454,
+      "pipeline_throughput": 2.4484,
+      "handoff_completion": 1.3352,
+      "placement_completion": 1.8338,
+      "backlog_accumulation": -130.9565,
+      "backlog_accumulation_rel": -0.0147,
+      "cbp_net_backlog": -39.4261,
+      "outcome_stability": 77.6873
+    },
+    {
+      "period": "2024",
+      "reporting_days": 251,
+      "coverage_pct": 68.8,
+      "transfer_efficiency": 0.7834,
+      "cbp_clearance_days": 1.3614,
+      "discharge_effectiveness": 0.029,
+      "hhs_release_days": 36.6553,
+      "pipeline_throughput": 1.3908,
+      "handoff_completion": 1.414,
+      "placement_completion": 0.9836,
+      "backlog_accumulation": 3.4382,
+      "backlog_accumulation_rel": 0.001,
+      "cbp_net_backlog": -61.2988,
+      "outcome_stability": 75.1609
+    },
+    {
+      "period": "2025",
+      "reporting_days": 239,
+      "coverage_pct": 67.3,
+      "transfer_efficiency": 0.4603,
+      "cbp_clearance_days": 3.3192,
+      "discharge_effectiveness": 0.009,
+      "hhs_release_days": 226.8807,
+      "pipeline_throughput": 2.2215,
+      "handoff_completion": 1.2729,
+      "placement_completion": 1.7453,
+      "backlog_accumulation": -12.364,
+      "backlog_accumulation_rel": -0.0035,
+      "cbp_net_backlog": -3.5565,
+      "outcome_stability": 0.0
+    }
+  ],
+  "headlines": {
+    "transfer_efficiency_full": 69.1,
+    "discharge_effectiveness_full": 2.374,
+    "pipeline_throughput_full": 1.854,
+    "outcome_stability_full": 43.9,
+    "cbp_clearance_days_full": 2.0,
+    "hhs_release_days_full": 98.0,
+    "transfer_efficiency_2023": 83.0,
+    "transfer_efficiency_2025": 46.03,
+    "discharge_effectiveness_2023": 3.34,
+    "discharge_effectiveness_2025": 0.9,
+    "stability_2023": 77.7,
+    "stability_2024": 75.2,
+    "stability_2025": 0.0,
+    "throughput_2023": 2.448,
+    "throughput_2024": 1.391,
+    "throughput_2025": 2.221,
+    "weekday_discharge_effectiveness": 2.271,
+    "weekend_discharge_effectiveness": 2.84,
+    "peak_placement_month": "2023-12",
+    "peak_discharges_per_day": 358.1,
+    "trough_placement_month": "2025-11",
+    "trough_discharges_per_day": 8.4,
+    "weakest_stability_month": "2025-03",
+    "weakest_stability_score": 14.4
+  },
+  "bottlenecks": [
+    {
+      "stage": "HHS",
+      "start": "2024-08-18",
+      "end": "2024-09-05",
+      "reports": 12,
+      "calendar_days": 19,
+      "severity": 720,
+      "mean_per_day": 37.9
+    },
+    {
+      "stage": "HHS",
+      "start": "2024-04-21",
+      "end": "2024-05-02",
+      "reports": 10,
+      "calendar_days": 12,
+      "severity": 1028,
+      "mean_per_day": 85.7
+    },
+    {
+      "stage": "HHS",
+      "start": "2024-05-20",
+      "end": "2024-06-03",
+      "reports": 10,
+      "calendar_days": 15,
+      "severity": 595,
+      "mean_per_day": 39.7
+    },
+    {
+      "stage": "HHS",
+      "start": "2024-11-25",
+      "end": "2024-12-08",
+      "reports": 10,
+      "calendar_days": 14,
+      "severity": 670,
+      "mean_per_day": 47.9
+    },
+    {
+      "stage": "HHS",
+      "start": "2025-03-19",
+      "end": "2025-03-31",
+      "reports": 9,
+      "calendar_days": 13,
+      "severity": 51,
+      "mean_per_day": 3.9
+    },
+    {
+      "stage": "HHS",
+      "start": "2024-05-06",
+      "end": "2024-05-15",
+      "reports": 8,
+      "calendar_days": 10,
+      "severity": 252,
+      "mean_per_day": 25.2
+    },
+    {
+      "stage": "HHS",
+      "start": "2024-10-14",
+      "end": "2024-10-23",
+      "reports": 8,
+      "calendar_days": 10,
+      "severity": 336,
+      "mean_per_day": 33.6
+    },
+    {
+      "stage": "HHS",
+      "start": "2024-11-04",
+      "end": "2024-11-14",
+      "reports": 8,
+      "calendar_days": 11,
+      "severity": 198,
+      "mean_per_day": 18.0
+    },
+    {
+      "stage": "HHS",
+      "start": "2025-05-07",
+      "end": "2025-05-14",
+      "reports": 6,
+      "calendar_days": 8,
+      "severity": 30,
+      "mean_per_day": 3.8
+    },
+    {
+      "stage": "HHS",
+      "start": "2024-02-05",
+      "end": "2024-02-08",
+      "reports": 4,
+      "calendar_days": 4,
+      "severity": 399,
+      "mean_per_day": 99.8
+    },
+    {
+      "stage": "HHS",
+      "start": "2024-03-04",
+      "end": "2024-03-07",
+      "reports": 4,
+      "calendar_days": 4,
+      "severity": 310,
+      "mean_per_day": 77.5
+    },
+    {
+      "stage": "HHS",
+      "start": "2024-06-17",
+      "end": "2024-06-20",
+      "reports": 4,
+      "calendar_days": 4,
+      "severity": 143,
+      "mean_per_day": 35.8
+    },
+    {
+      "stage": "HHS",
+      "start": "2024-07-07",
+      "end": "2024-07-10",
+      "reports": 4,
+      "calendar_days": 4,
+      "severity": 102,
+      "mean_per_day": 25.5
+    },
+    {
+      "stage": "HHS",
+      "start": "2024-07-29",
+      "end": "2024-08-01",
+      "reports": 4,
+      "calendar_days": 4,
+      "severity": 224,
+      "mean_per_day": 56.0
+    },
+    {
+      "stage": "HHS",
+      "start": "2024-10-07",
+      "end": "2024-10-10",
+      "reports": 4,
+      "calendar_days": 4,
+      "severity": 132,
+      "mean_per_day": 33.0
+    }
+  ],
+  "longest_backlog_run": {
+    "stage": "HHS",
+    "start": "2024-08-18",
+    "end": "2024-09-05",
+    "reports": 12,
+    "calendar_days": 19,
+    "severity": 720,
+    "mean_per_day": 37.9
+  },
+  "stagnation_periods": [
+    {
+      "start": "2025-03-11",
+      "end": "2025-03-31",
+      "reports": 15,
+      "calendar_days": 21,
+      "mean_discharge_effectiveness": 0.0030409337594829097,
+      "mean_baseline": 0.011857901775121114
+    },
+    {
+      "start": "2025-02-17",
+      "end": "2025-02-26",
+      "reports": 8,
+      "calendar_days": 10,
+      "mean_discharge_effectiveness": 0.00914370544510092,
+      "mean_baseline": 0.028783502407361373
+    }
+  ],
+  "longest_stagnation": {
+    "start": "2025-03-11",
+    "end": "2025-03-31",
+    "reports": 15,
+    "calendar_days": 21,
+    "mean_discharge_effectiveness": 0.0030409337594829097,
+    "mean_baseline": 0.011857901775121114
+  },
+  "discharge_drops": [
+    {
+      "date": "2023-07-25",
+      "discharge_effectiveness": 0.018109187749667112,
+      "z_score": -2.0322088252453314,
+      "rolling_mean": 0.033152804994687875
+    },
+    {
+      "date": "2024-07-30",
+      "discharge_effectiveness": 0.01551433389544688,
+      "z_score": -2.2377031418876014,
+      "rolling_mean": 0.02996338973626003
+    },
+    {
+      "date": "2024-08-27",
+      "discharge_effectiveness": 0.015767230169050715,
+      "z_score": -2.1883921284969614,
+      "rolling_mean": 0.029631381748736252
+    },
+    {
+      "date": "2025-01-21",
+      "discharge_effectiveness": 0.011421319796954314,
+      "z_score": -2.561906239670374,
+      "rolling_mean": 0.027544370172375553
+    },
+    {
+      "date": "2025-02-17",
+      "discharge_effectiveness": 0.005924170616113744,
+      "z_score": -2.8070479873673038,
+      "rolling_mean": 0.028627839641791757
+    },
+    {
+      "date": "2025-02-18",
+      "discharge_effectiveness": 0.003548895899053628,
+      "z_score": -2.8767146843665796,
+      "rolling_mean": 0.028128285220436384
+    },
+    {
+      "date": "2025-02-19",
+      "discharge_effectiveness": 0.007515822784810127,
+      "z_score": -2.2191164090406743,
+      "rolling_mean": 0.027578323315929087
+    },
+    {
+      "date": "2025-11-23",
+      "discharge_effectiveness": 0.0004210526315789474,
+      "z_score": -2.263158447589114,
+      "rolling_mean": 0.005053738158153287
+    },
+    {
+      "date": "2025-11-30",
+      "discharge_effectiveness": 0.0,
+      "z_score": -2.465000689716216,
+      "rolling_mean": 0.004808916719537203
+    }
+  ],
+  "drop_count": 9,
+  "alert_thresholds": {
+    "min_discharge_effectiveness": 0.01,
+    "max_cbp_clearance_days": 4.0,
+    "max_hhs_release_days": 150.0,
+    "max_backlog_rel": 0.01
+  },
+  "alert_count": 445,
+  "alerts_by_type": {
+    "Backlog accumulation above threshold": 51,
+    "CBP clearance time above threshold": 63,
+    "Discharge effectiveness below threshold": 190,
+    "HHS release time above threshold": 141
+  },
+  "diagnostics": {
+    "flow_is_daily_count": {
+      "regression": "flow ~ reporting_gap + quadratic_time_trend",
+      "results": {
+        "intake": {
+          "gap_coefficient_children_per_extra_gap_day": -3.19,
+          "t_stat": -1.7,
+          "period_sum_expectation": 93.5
+        },
+        "transfers": {
+          "gap_coefficient_children_per_extra_gap_day": -0.94,
+          "t_stat": -0.4,
+          "period_sum_expectation": 128.7
+        },
+        "discharges": {
+          "gap_coefficient_children_per_extra_gap_day": 9.71,
+          "t_stat": 4.1,
+          "period_sum_expectation": 173.4
+        }
+      },
+      "interpretation": "Gap coefficients are an order of magnitude below the values expected if reports summed flows over the gap, so published flows are treated as daily counts."
+    },
+    "weekend_release_effect": {
+      "regression": "discharges ~ sunday + reporting_gap + quadratic_time_trend + hhs_caseload",
+      "sunday_coefficient_children": 61.4,
+      "t_stat": 9.7,
+      "r_squared": 0.882,
+      "interpretation": "Sunday reports carry this many additional discharges versus weekday reports at equal caseload, gap and trend. Because the file contains no Saturday reports and only two Friday reports, genuine weekend placement activity cannot be separated from a wider weekend counting window."
+    },
+    "reporting_gaps": {
+      "calendar_days_without_report": 355,
+      "multi_day_gap_reports": 161,
+      "multi_day_gap_share_pct": 22.4,
+      "zero_discharge_reports": 1
+    },
+    "queue_drain_time_by_year": {
+      "2023": {
+        "release_days_mean": 31.4,
+        "release_days_median": 31.1,
+        "clearance_days_mean": 1.32
+      },
+      "2024": {
+        "release_days_mean": 36.7,
+        "release_days_median": 35.9,
+        "clearance_days_mean": 1.36
+      },
+      "2025": {
+        "release_days_mean": 226.9,
+        "release_days_median": 176.9,
+        "clearance_days_mean": 3.32
+      }
+    }
+  },
+  "mass_balance": [
+    {
+      "period": "all",
+      "observed_hhs_change": -4082,
+      "predicted_hhs_change": -32212,
+      "hhs_residual": 28130,
+      "hhs_residual_per_day": 39.1,
+      "observed_cbp_change": -35,
+      "predicted_cbp_change": -25304,
+      "cbp_residual": 25269,
+      "cbp_residual_per_day": 35.1
+    },
+    {
+      "period": "2023",
+      "observed_hhs_change": 4664,
+      "predicted_hhs_change": -30120,
+      "hhs_residual": 34784,
+      "hhs_residual_per_day": 151.2,
+      "observed_cbp_change": 54,
+      "predicted_cbp_change": -9068,
+      "cbp_residual": 9122,
+      "cbp_residual_per_day": 39.7
+    },
+    {
+      "period": "2024",
+      "observed_hhs_change": -4416,
+      "predicted_hhs_change": 863,
+      "hhs_residual": -5279,
+      "hhs_residual_per_day": -21.0,
+      "observed_cbp_change": 32,
+      "predicted_cbp_change": -15386,
+      "cbp_residual": 15418,
+      "cbp_residual_per_day": 61.4
+    },
+    {
+      "period": "2025",
+      "observed_hhs_change": -3921,
+      "predicted_hhs_change": -2955,
+      "hhs_residual": -966,
+      "hhs_residual_per_day": -4.0,
+      "observed_cbp_change": -48,
+      "predicted_cbp_change": -850,
+      "cbp_residual": 802,
+      "cbp_residual_per_day": 3.4
+    }
+  ],
+  "metric_definitions": {
+    "transfer_efficiency": "Transfers out of CBP custody / children in CBP custody (daily turnover of the CBP queue; higher = faster handoff)",
+    "cbp_clearance_days": "Children in CBP custody / Transfers out of CBP custody (days needed to clear the CBP queue at the observed transfer rate)",
+    "discharge_effectiveness": "Discharges from HHS care / children in HHS care (daily release velocity; higher = faster reunification)",
+    "hhs_release_days": "Children in HHS care / Discharges from HHS care (days needed to place the active HHS caseload at the observed discharge rate)",
+    "pipeline_throughput": "Sum(discharges) / Sum(intake) over the window (total exits divided by total entries)",
+    "handoff_completion": "Sum(transfers) / Sum(intake) over the window (share of apprehensions that reached HHS care)",
+    "placement_completion": "Sum(discharges) / Sum(transfers) over the window (share of transferred children discharged to a sponsor)",
+    "backlog_accumulation": "Transfers - Discharges (children/day) (positive = HHS queue growing faster than it empties)",
+    "backlog_accumulation_rel": "(Transfers - Discharges) / HHS care stock (relative growth rate of the HHS queue)",
+    "cbp_net_backlog": "Intake - Transfers (children/day) (positive = CBP queue growing faster than it empties)",
+    "outcome_stability": "100 * (1 - clamp(CV of discharge effectiveness, 0, 1)) (100 = perfectly consistent daily release velocity)"
+  },
+  "captions": {
+    "fig01_pipeline_overview": "Figure 1. The three-stage care pipeline. Upper: daily flows (entry, handoff, exit). Middle and lower: the two queues the system must drain. Volumes collapse after January 2025, but queue-drain speed must be judged on ratios, not absolute counts.",
+    "fig02_transition_efficiency": "Figure 2. Transition efficiency metrics. Both ratios are flow-over-stock, so they are invariant to programme scale. The lower panel converts them into operationally meaningful 'days to clear' figures - the two queues move at very different speeds.",
+    "fig03_backlog_identification": "Figure 3. Where the pipeline stalls. Positive bars mean the queue grew that day. The cumulative series is a pure imbalance indicator (inflow minus outflow as published), not a census of children.",
+    "fig04_bottleneck_detection": "Figure 4. Bottlenecks are defined as runs of at least three consecutive reports in which a queue grew. Left: the twelve longest runs. Right: monthly net imbalance - accumulation is concentrated in the high-volume 2023-2024 regime.",
+    "fig05_temporal_patterns": "Figure 5. Temporal patterns. The cadence is Mon-Thu plus Sundays (no Saturday reports, only two Fridays), so weekend comparisons rest on Sunday reports. Efficiency trends are shown month over month against the caseload they serve.",
+    "fig06_outcome_stability": "Figure 6. Consistency of reunification outcomes. Amber bands mark prolonged low-release periods, red markers sudden drops in discharge effectiveness, and the lower panel scores each month's consistency (100 - coefficient of variation).",
+    "fig07_throughput_funnel": "Figure 7. End-to-end throughput. The ratio labels are stage-completion rates; the right panel shows how long each queue takes to drain at observed flow rates.",
+    "fig08_regime_comparison": "Figure 8. Year-on-year regime comparison. Ratios are scale-invariant, so KPI levels can be compared across regimes even though volumes differ by an order of magnitude."
+  }
+}

@@ -35,6 +35,7 @@ handoff speed, discharge velocity, backlog growth and the consistency of reunifi
 |---|---|
 | Repository | https://github.com/swaroopa790/care-transition-analytics |
 | **Live dashboard (Streamlit Cloud)** | https://care-transition-analytics-cudp5axebefwvq7pxeiov9.streamlit.app |
+| Feedback video (3:30, 1080p) | https://swaroopa790.github.io/care-transition-analytics/docs/project_feedback_video.mp4 |
 | Research paper (hosted) | https://swaroopa790.github.io/care-transition-analytics/docs/research_paper.pdf |
 | Executive summary (hosted) | https://swaroopa790.github.io/care-transition-analytics/docs/executive_summary.pdf |
 | Landing page (GitHub Pages) | https://swaroopa790.github.io/care-transition-analytics/ |

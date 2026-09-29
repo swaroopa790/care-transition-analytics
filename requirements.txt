@@ -1,8 +1,11 @@
-# Core runtime - required by app.py (Streamlit Community Cloud installs this file)
-streamlit==1.52.1
-pandas==2.2.3
-numpy==2.2.4
-plotly==6.6.0
+# Dependencies for app.py (Streamlit Community Cloud installs this file).
+# Deliberately bounded with >= rather than exact pins: the cloud build runs on
+# whichever Python version the workspace selects, so exact pins can fail wheel
+# resolution and leave the app running in the bare base image.
+streamlit>=1.52,<2
+pandas>=2.2
+numpy>=1.26
+plotly>=6.0
 
 # Analysis + document build only (src/run_analysis.py, scripts/make_pdfs.py)
 matplotlib>=3.8

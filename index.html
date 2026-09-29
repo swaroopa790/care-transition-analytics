@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Care Transition Efficiency &amp; Placement Outcome Analytics</title>
+<style>
+  :root { color-scheme: light; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         margin: 0; background: #f2f5f8; color: #1b2733; line-height: 1.55; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 48px 24px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 6px; }
+  .sub { color: #4c78a8; font-weight: 600; margin-bottom: 24px; }
+  .card { background: #fff; border: 1px solid #e1e7ee; border-radius: 12px;
+          padding: 20px 22px; margin-bottom: 16px; }
+  .card h2 { font-size: 1.05rem; margin: 0 0 8px; }
+  .card p { margin: 0 0 10px; font-size: .95rem; color: #40505f; }
+  a.btn { display: inline-block; margin: 4px 8px 4px 0; padding: 8px 14px; border-radius: 8px;
+          background: #4c78a8; color: #fff; text-decoration: none; font-size: .9rem; }
+  a.btn.alt { background: #54a24b; }
+  a.btn.ghost { background: #fff; color: #1b2733; border: 1px solid #ccd6e0; }
+  ul.kpi { padding-left: 20px; font-size: .95rem; }
+  code { background: #eef2f6; padding: 1px 5px; border-radius: 4px; font-size: .88em; }
+  img.fig { max-width: 100%; border: 1px solid #e1e7ee; border-radius: 8px; margin-top: 8px; }
+  footer { font-size: .82rem; color: #6b7885; margin-top: 28px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Care Transition Efficiency &amp; Placement Outcome Analytics</h1>
+  <div class="sub">HHS Unaccompanied Alien Children programme as a three-stage care pipeline</div>
+
+  <div class="card">
+    <h2>Deliverables</h2>
+    <p>EDA, insights and recommendations, plus a live analytics dashboard covering care-pipeline
+       flow, transfer &amp; discharge efficiency, bottleneck detection and outcome trends.</p>
+    <a class="btn" href="docs/research_paper.pdf">Research paper (PDF)</a>
+    <a class="btn" href="docs/research_paper.html">Research paper (HTML)</a>
+    <a class="btn alt" href="docs/executive_summary.pdf">Executive summary (PDF)</a>
+    <a class="btn alt" href="docs/executive_summary.html">Executive summary (HTML)</a>
+    <a class="btn ghost" href="https://github.com/swaroopa790/care-transition-analytics">Source repository</a>
+  </div>
+
+  <div class="card">
+    <h2>Headline findings (2023-01-12 &rarr; 2025-12-21)</h2>
+    <ul class="kpi">
+      <li><strong>Transfer efficiency</strong> fell from 83.0% (2023) to 46.0% (2025).</li>
+      <li><strong>Discharge effectiveness</strong> fell from 3.34%/day to 0.90%/day &mdash;
+          implied placement cycle lengthened from 31 to 227 days.</li>
+      <li><strong>Outcome Stability Score</strong> dropped from 77.7 to 0.0.</li>
+      <li>36 sustained accumulation runs (27 in 2024), 2 stagnation windows, 9 sudden drops,
+          445 threshold alerts &mdash; every 2025 discharge alert.</li>
+      <li>Reporting covers <strong>67%</strong> of calendar days; the 2023 stock/flow identity does
+          not close (&asymp;151 children/day unexplained), a data-governance caveat.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Five KPIs</h2>
+    <p><code>Transfer Efficiency Ratio</code> &middot; <code>Discharge Effectiveness Index</code> &middot;
+       <code>Pipeline Throughput</code> &middot; <code>Backlog Accumulation Rate</code> &middot;
+       <code>Outcome Stability Score</code> &mdash; all formulas published in
+       <code>src/care_pipeline.py::METRIC_DEFINITIONS</code> so paper, dashboard and
+       <code>outputs/insights.json</code> cannot drift apart.</p>
+  </div>
+
+  <div class="card">
+    <h2>Figure 1 &mdash; pipeline overview</h2>
+    <img class="fig" src="outputs/figures/fig01_pipeline_overview.png"
+         alt="Three-stage care pipeline overview">
+  </div>
+
+  <footer>
+    Generated from the repository at
+    <a href="https://github.com/swaroopa790/care-transition-analytics">github.com/swaroopa790/care-transition-analytics</a>.
+    All eight figures: <code>outputs/figures/fig01&ndash;fig08</code>.
+  </footer>
+</div>
+</body>
+</html>

@@ -27,6 +27,16 @@ handoff speed, discharge velocity, backlog growth and the consistency of reunifi
 | Metric tables (KPI, monthly, bottlenecks, alerts, …) | `outputs/tables/` |
 | Machine-readable findings | `outputs/insights.json` |
 | Markdown → HTML/PDF renderer | `scripts/make_pdfs.py` |
+| Pre-deployment smoke check | `scripts/smoke_check.py` |
+
+**Hosted links**
+
+| | |
+|---|---|
+| Repository | https://github.com/swaroopa790/care-transition-analytics |
+| Research paper (hosted) | https://swaroopa790.github.io/care-transition-analytics/docs/research_paper.pdf |
+| Executive summary (hosted) | https://swaroopa790.github.io/care-transition-analytics/docs/executive_summary.pdf |
+| Landing page (GitHub Pages) | https://swaroopa790.github.io/care-transition-analytics/ |
 
 ---
 
@@ -43,6 +53,9 @@ python -m streamlit run app.py
 
 # 3. Rebuild the PDF deliverables from the Markdown sources
 python scripts/make_pdfs.py
+
+# 4. Verify everything a deployment needs is present (optional)
+python scripts/smoke_check.py
 ```
 
 Python 3.11+ (developed on 3.13), `streamlit`, `pandas`, `numpy`, `plotly`, `matplotlib`, `markdown`.
